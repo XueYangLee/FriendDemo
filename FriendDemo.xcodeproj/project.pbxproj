@@ -3,25 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416CE0FA98EEFBE9FA09B0AC /* libPods-FriendDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 615BE05EEE42090E4F8AF255 /* libPods-FriendDemo.a */; };
+		F11AA863248C926600E68512 /* PicContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F11AA862248C926600E68512 /* PicContainerView.m */; };
 		F12CB21D24285398005BEAB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB21C24285398005BEAB0 /* AppDelegate.m */; };
-		F12CB22024285398005BEAB0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB21F24285398005BEAB0 /* SceneDelegate.m */; };
 		F12CB22324285398005BEAB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB22224285398005BEAB0 /* ViewController.m */; };
 		F12CB22624285398005BEAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CB22424285398005BEAB0 /* Main.storyboard */; };
 		F12CB22824285399005BEAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12CB22724285399005BEAB0 /* Assets.xcassets */; };
 		F12CB22B24285399005BEAB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12CB22924285399005BEAB0 /* LaunchScreen.storyboard */; };
 		F12CB22E24285399005BEAB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB22D24285399005BEAB0 /* main.m */; };
+		F12CB23B24285479005BEAB0 /* UITextField+FuncChains.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB23624285478005BEAB0 /* UITextField+FuncChains.m */; };
+		F12CB23C24285479005BEAB0 /* UIButton+FuncChains.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB23924285478005BEAB0 /* UIButton+FuncChains.m */; };
+		F12CB23D24285479005BEAB0 /* UILabel+FuncChains.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB23A24285479005BEAB0 /* UILabel+FuncChains.m */; };
+		F12CB242242854D5005BEAB0 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB23E242854D4005BEAB0 /* BaseTableViewController.m */; };
+		F12CB243242854D5005BEAB0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB23F242854D5005BEAB0 /* BaseViewController.m */; };
+		F12CB247242855D8005BEAB0 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB246242855D8005BEAB0 /* FriendViewController.m */; };
+		F12CB24B24286C2A005BEAB0 /* FriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB24A24286C2A005BEAB0 /* FriendCell.m */; };
+		F12CB24E24288C29005BEAB0 /* UIColor+ColorHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB24C24288C29005BEAB0 /* UIColor+ColorHexadecimal.m */; };
+		F12CB25124288FF1005BEAB0 /* FriendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB25024288FF1005BEAB0 /* FriendModel.m */; };
+		F12CB25D2428B6BD005BEAB0 /* BaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB25B2428B6BD005BEAB0 /* BaseWebViewController.m */; };
+		F12CB2602428B742005BEAB0 /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12CB25F2428B742005BEAB0 /* UIViewController+CurrentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0834344D106D9BF6E5871DC4 /* Pods-FriendDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendDemo.debug.xcconfig"; path = "Target Support Files/Pods-FriendDemo/Pods-FriendDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2C932E080ED0BCBAC10BDDFA /* Pods-FriendDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendDemo.release.xcconfig"; path = "Target Support Files/Pods-FriendDemo/Pods-FriendDemo.release.xcconfig"; sourceTree = "<group>"; };
+		615BE05EEE42090E4F8AF255 /* libPods-FriendDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FriendDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11AA861248C926600E68512 /* PicContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicContainerView.h; sourceTree = "<group>"; };
+		F11AA862248C926600E68512 /* PicContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicContainerView.m; sourceTree = "<group>"; };
 		F12CB21824285398005BEAB0 /* FriendDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12CB21B24285398005BEAB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F12CB21C24285398005BEAB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F12CB21E24285398005BEAB0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		F12CB21F24285398005BEAB0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		F12CB22124285398005BEAB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F12CB22224285398005BEAB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F12CB22524285398005BEAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +44,30 @@
 		F12CB22A24285399005BEAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F12CB22C24285399005BEAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F12CB22D24285399005BEAB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F12CB23524285478005BEAB0 /* UILabel+FuncChains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FuncChains.h"; sourceTree = "<group>"; };
+		F12CB23624285478005BEAB0 /* UITextField+FuncChains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FuncChains.m"; sourceTree = "<group>"; };
+		F12CB23724285478005BEAB0 /* UIButton+FuncChains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FuncChains.h"; sourceTree = "<group>"; };
+		F12CB23824285478005BEAB0 /* UITextField+FuncChains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FuncChains.h"; sourceTree = "<group>"; };
+		F12CB23924285478005BEAB0 /* UIButton+FuncChains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FuncChains.m"; sourceTree = "<group>"; };
+		F12CB23A24285479005BEAB0 /* UILabel+FuncChains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FuncChains.m"; sourceTree = "<group>"; };
+		F12CB23E242854D4005BEAB0 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		F12CB23F242854D5005BEAB0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F12CB240242854D5005BEAB0 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		F12CB241242854D5005BEAB0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F12CB24424285535005BEAB0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F12CB245242855D8005BEAB0 /* FriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		F12CB246242855D8005BEAB0 /* FriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		F12CB2482428568B005BEAB0 /* PchMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PchMacro.h; sourceTree = "<group>"; };
+		F12CB24924286C2A005BEAB0 /* FriendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendCell.h; sourceTree = "<group>"; };
+		F12CB24A24286C2A005BEAB0 /* FriendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendCell.m; sourceTree = "<group>"; };
+		F12CB24C24288C29005BEAB0 /* UIColor+ColorHexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHexadecimal.m"; sourceTree = "<group>"; };
+		F12CB24D24288C29005BEAB0 /* UIColor+ColorHexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHexadecimal.h"; sourceTree = "<group>"; };
+		F12CB24F24288FF1005BEAB0 /* FriendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendModel.h; sourceTree = "<group>"; };
+		F12CB25024288FF1005BEAB0 /* FriendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendModel.m; sourceTree = "<group>"; };
+		F12CB25B2428B6BD005BEAB0 /* BaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseWebViewController.m; sourceTree = "<group>"; };
+		F12CB25C2428B6BD005BEAB0 /* BaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWebViewController.h; sourceTree = "<group>"; };
+		F12CB25E2428B742005BEAB0 /* UIViewController+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CurrentViewController.h"; sourceTree = "<group>"; };
+		F12CB25F2428B742005BEAB0 /* UIViewController+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CurrentViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416CE0FA98EEFBE9FA09B0AC /* libPods-FriendDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58615DCD4BFB1EF8A4CB6721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				615BE05EEE42090E4F8AF255 /* libPods-FriendDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA6E9D7F0CD3163229362367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0834344D106D9BF6E5871DC4 /* Pods-FriendDemo.debug.xcconfig */,
+				2C932E080ED0BCBAC10BDDFA /* Pods-FriendDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F12CB20F24285397005BEAB0 = {
 			isa = PBXGroup;
 			children = (
 				F12CB21A24285398005BEAB0 /* FriendDemo */,
 				F12CB21924285398005BEAB0 /* Products */,
+				DA6E9D7F0CD3163229362367 /* Pods */,
+				58615DCD4BFB1EF8A4CB6721 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,10 +122,17 @@
 			children = (
 				F12CB21B24285398005BEAB0 /* AppDelegate.h */,
 				F12CB21C24285398005BEAB0 /* AppDelegate.m */,
-				F12CB21E24285398005BEAB0 /* SceneDelegate.h */,
-				F12CB21F24285398005BEAB0 /* SceneDelegate.m */,
 				F12CB22124285398005BEAB0 /* ViewController.h */,
 				F12CB22224285398005BEAB0 /* ViewController.m */,
+				F12CB245242855D8005BEAB0 /* FriendViewController.h */,
+				F12CB246242855D8005BEAB0 /* FriendViewController.m */,
+				F12CB24924286C2A005BEAB0 /* FriendCell.h */,
+				F12CB24A24286C2A005BEAB0 /* FriendCell.m */,
+				F12CB24F24288FF1005BEAB0 /* FriendModel.h */,
+				F12CB25024288FF1005BEAB0 /* FriendModel.m */,
+				F11AA861248C926600E68512 /* PicContainerView.h */,
+				F11AA862248C926600E68512 /* PicContainerView.m */,
+				F12CB23424285467005BEAB0 /* Tools */,
 				F12CB22424285398005BEAB0 /* Main.storyboard */,
 				F12CB22724285399005BEAB0 /* Assets.xcassets */,
 				F12CB22924285399005BEAB0 /* LaunchScreen.storyboard */,
@@ -76,6 +142,31 @@
 			path = FriendDemo;
 			sourceTree = "<group>";
 		};
+		F12CB23424285467005BEAB0 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F12CB240242854D5005BEAB0 /* BaseTableViewController.h */,
+				F12CB23E242854D4005BEAB0 /* BaseTableViewController.m */,
+				F12CB25C2428B6BD005BEAB0 /* BaseWebViewController.h */,
+				F12CB25B2428B6BD005BEAB0 /* BaseWebViewController.m */,
+				F12CB25E2428B742005BEAB0 /* UIViewController+CurrentViewController.h */,
+				F12CB25F2428B742005BEAB0 /* UIViewController+CurrentViewController.m */,
+				F12CB241242854D5005BEAB0 /* BaseViewController.h */,
+				F12CB23F242854D5005BEAB0 /* BaseViewController.m */,
+				F12CB23724285478005BEAB0 /* UIButton+FuncChains.h */,
+				F12CB23924285478005BEAB0 /* UIButton+FuncChains.m */,
+				F12CB23524285478005BEAB0 /* UILabel+FuncChains.h */,
+				F12CB23A24285479005BEAB0 /* UILabel+FuncChains.m */,
+				F12CB23824285478005BEAB0 /* UITextField+FuncChains.h */,
+				F12CB23624285478005BEAB0 /* UITextField+FuncChains.m */,
+				F12CB24D24288C29005BEAB0 /* UIColor+ColorHexadecimal.h */,
+				F12CB24C24288C29005BEAB0 /* UIColor+ColorHexadecimal.m */,
+				F12CB2482428568B005BEAB0 /* PchMacro.h */,
+				F12CB24424285535005BEAB0 /* PrefixHeader.pch */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F12CB23124285399005BEAB0 /* Build configuration list for PBXNativeTarget "FriendDemo" */;
 			buildPhases = (
+				F5C3FD09E0B54C4282907D27 /* [CP] Check Pods Manifest.lock */,
 				F12CB21424285398005BEAB0 /* Sources */,
 				F12CB21524285398005BEAB0 /* Frameworks */,
 				F12CB21624285398005BEAB0 /* Resources */,
+				3524100B7907214419ECD64D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,15 +234,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3524100B7907214419ECD64D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendDemo/Pods-FriendDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendDemo/Pods-FriendDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FriendDemo/Pods-FriendDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5C3FD09E0B54C4282907D27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F12CB21424285398005BEAB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F12CB22324285398005BEAB0 /* ViewController.m in Sources */,
+				F12CB25124288FF1005BEAB0 /* FriendModel.m in Sources */,
+				F12CB243242854D5005BEAB0 /* BaseViewController.m in Sources */,
+				F12CB23B24285479005BEAB0 /* UITextField+FuncChains.m in Sources */,
 				F12CB21D24285398005BEAB0 /* AppDelegate.m in Sources */,
 				F12CB22E24285399005BEAB0 /* main.m in Sources */,
-				F12CB22024285398005BEAB0 /* SceneDelegate.m in Sources */,
+				F11AA863248C926600E68512 /* PicContainerView.m in Sources */,
+				F12CB2602428B742005BEAB0 /* UIViewController+CurrentViewController.m in Sources */,
+				F12CB23D24285479005BEAB0 /* UILabel+FuncChains.m in Sources */,
+				F12CB25D2428B6BD005BEAB0 /* BaseWebViewController.m in Sources */,
+				F12CB242242854D5005BEAB0 /* BaseTableViewController.m in Sources */,
+				F12CB24B24286C2A005BEAB0 /* FriendCell.m in Sources */,
+				F12CB247242855D8005BEAB0 /* FriendViewController.m in Sources */,
+				F12CB24E24288C29005BEAB0 /* UIColor+ColorHexadecimal.m in Sources */,
+				F12CB23C24285479005BEAB0 /* UIButton+FuncChains.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +433,13 @@
 		};
 		F12CB23224285399005BEAB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0834344D106D9BF6E5871DC4 /* Pods-FriendDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZS45G9JJF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FriendDemo/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = FriendDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,16 +447,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Singularity.FriendDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F12CB23324285399005BEAB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C932E080ED0BCBAC10BDDFA /* Pods-FriendDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XZS45G9JJF;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FriendDemo/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = FriendDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,7 +467,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Singularity.FriendDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
