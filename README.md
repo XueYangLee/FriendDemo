@@ -27,3 +27,4 @@
 }
 ```
 
+[FriendDemo](https://github.com/XueYangLee/FriendDemo/blob/master/%E6%9C%8B%E5%8F%8B%E5%9C%88%E7%AE%80%E6%98%93demo.gif)
